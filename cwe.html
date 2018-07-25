@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Common Weakness Enumeration (CWE) is a list of software weaknesses." />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link href="/css/main.css?version=3.1.040318" rel="stylesheet" type="text/css" />
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="/css/ie.css?version=1.7" />
+	<![endif]-->
+	
+	<script src="/includes/browserheight.js" language="JavaScript" type="text/javascript"></script>
+	<script src="/includes/jquery.js" language="JavaScript" type="text/javascript"></script>               	
+	<script src="/includes/cwe_minimizer.js" language="JavaScript" type="text/javascript"></script>
+	<script src="/includes/cookie.js" language="Javascript" type="text/javascript"></script>
+	<script src="/includes/includeglossarydef.js" language="JavaScript" type="text/javascript"></script>
+
+	<link href="/css/print.css?version=1.11" rel="stylesheet" media="print" type="text/css" />
+	<link href="/css/mappingonly.css" rel="stylesheet" type="text/css" />
+	<noscript>
+	<style type="text/css">
+		#script { visibility:collapse; visibility:hidden; font-size:0px; height:0px; width:0px  }
+		#noscript { visibility:visible; font-size:inherit;  height:inherit; width:inherit}
+	</style>
+	</noscript>
+	<title>CWE -
+
+Common Weakness Enumeration
+</title>
+</head>
+<body onload="onloadCookie()">
+<a name="top" id="top"></a>
+	<div id="MastHead" style="width:100%">
+	
+	        <div style="width:70%;float:left;padding-top:20px;padding-left:10px;padding-bottom:10px;">
+	                <a href="/index.html" style="color:#32498D; text-decoration:none">
+	                <img src="/images/cwe_logo.jpg" width="153" height="55" style="float:left;border:0;margin-right:6px" alt="CWE" />
+	                <h1 style="color:#314a8d;font-size:1.5em;font-family:'Verdana',sans-serif;text-shadow: 2px 2px #eee;margin: .1em auto">Common Weakness Enumeration</h1>
+	                <p style="color:#314a8d;font-style:italic;font-family:'Times New Roman';font-size:1em;text-shadow: 2px 2px #eee;margin:.1em auto 0 auto">A Community-Developed List of Software Weakness Types</p>
+	                </a>
+	        </div>
+	
+	</div><!--End Masthead div-->
+	
+	<div style="width:20%;float:right;padding-top:20px;text-align:right;padding-right:14px;"><a href="/top25/" title="CWE Top 25"><img src="/images/cwetop25.gif" width="124" height="53" border="0" alt="CWE/SANS Top 25 Most Dangerous Software Errors" style="vertical-align:bottom"/></a></div>
+
+<div id="HeaderBar" class="noprint">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">  
+	<tr> 
+		<td width="100%" align="left" style="padding-left:10px; font-size:75%;"> 
+		
+
+		&nbsp;
+		</td>
+		<td align="right" nowrap="nowrap" style="padding-right:12px">
+		<!-- Begin /includes/search_cwe_id.html -->
+<div class="noprint">
+  <form action="/cgi-bin/jumpmenu.cgi" align="right" style="padding:0px; margin:0px">
+	ID <label for="id" style="padding-right:5px">Lookup:</label>
+    <input id="id" name="id" type="text" style="width:50px; font-size:80%" maxlength="10" />
+	<input value="Go" style="padding: 0px; font-size:80%" type="submit">
+  </form>
+</div>
+<!-- End /includes/search_cwe_id.html --> 
+		</td>
+	</tr>
+</table>
+</div> <!--//HeaderBar-->
+<div class="yesprint">
+<hr width="100%" size="1" style="clear:both" color="#000000" />
+</div>
+
+<div class="topnav">
+<ul>
+<li><a href="/index.html">Home</a></li>
+<li>
+        <div class="dropdown">
+          <a href="/about/index.html"><button class="dropbtn">About</button></a>
+          <div class="dropdown-content">
+            <a href="/about/index.html">Overview</a>
+            <a href="/about/process.html">Process</a>
+            <a href="/about/sources.html">Sources</a>
+            <a href="/documents/glossary/index.html">Glossary</a>
+            <a href="/about/documents.html">Documents</a>
+            <a href="/about/faq.html">FAQs</a>
+          </div>
+        </div>
+</li>
+
+<li>
+        <div class="dropdown">
+          <a href="/data/index.html"><button class="dropbtn">CWE List</button></a>
+          <div class="dropdown-content">
+            <a href="/data/index.html">Latest Version</a>
+            <a href="/data/downloads.html">Downloads</a>
+            <a href="/data/reports.html">Reports</a>
+            <a href="/data/pdfs.html">Visualizations</a>
+            <a href="/data/archive.html">Archive</a>
+          </div>
+        </div>
+</li>
+<li>
+        <div class="dropdown">
+          <a href="/scoring/index.html"><button class="dropbtn">Scoring</button></a>
+          <div class="dropdown-content">
+            <a href="/scoring/index.html">Methodologies</a>
+            <a href="/community/swa/priority.html">Prioritizing Weaknesses</a>
+            <a href="/cwss/cwss_v1.0.1.html">CWSS</a>
+            <a href="/cwraf/index.html">CWRAF</a>
+            <a href="/top25/index.html">Top 25</a>
+          </div>
+        </div>
+</li>
+<li>
+        <div class="dropdown">
+          <a href="/community/index.html"><button class="dropbtn">Community</button></a>
+          <div class="dropdown-content">
+            <a href="/community/index.html">Community</a>
+            <a href="/community/citations.html">Use & Citations</a>
+            <a href="/research/index.html">Research</a>
+            <a href="/compatible/index.html">Compatibility</a>
+            <a href="/community/registration.html">Discussion List</a>
+            <a href="http://making-security-measurable.1364806.n2.nabble.com/Common-Weakness-Enumeration-f4149182.html">Discussion Archives</a>
+          </div>
+        </div>
+</li>
+<li>
+        <div class="dropdown">
+          <a href="/news/index.html"><button class="dropbtn">News</button></a>
+          <div class="dropdown-content">
+            <a href="/news/index.html">Current News</a>
+            <a href="/news/archives/index.html">Archive</a>
+            <a href="/news/newsletters.html">Free Newsletter</a>
+            <a href="https://www.linkedin.com/company/cve-cwe-capec" target="_blank" rel="noopener noreferrer"><img src="/images/linkedin.png" alt="LinkedIn" style="position:relative; vertical-align:bottom; top:-1px"></a>
+          </div>
+        </div>
+</li>
+<li style="border-color:#aaaaaa"><a href="/find/index.html">Search</a></li>
+</ul>
+
+</div>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" id="MainPane">
+  <tr>
+	<!-- begin left side menu -->
+    <td valign="top" rowspan="2" id="LeftPane">
+	<!--include virtual="/includes/leftsidemenu.html" Removed 11212016--> 
+	<script type="text/javascript">browserheight();</script>
+	</td>
+	<!-- end left side menu -->
+    <td style="height:1px"></td>
+	<!-- begin right column -->
+	<td valign="top" align="center" rowspan="2" nowrap="nowrap" id="RightPane">
+
+<style type="text/css"><!--
+ul.line { list-style-type: none; padding-left:15px; border-left:2px dotted #91a68d; margin: 0 1em 0 1em;}
+.item li {list-style-image:url(/images/triangle.gif); font-size: .8em; }
+.TitleBlue {
+	font-size: 1.2em;
+	color: #32498D;
+	text-align:center
+}
+
+--></style>
+
+
+	</td>
+	<!-- end right side menu -->
+  </tr>
+  <tr>
+	<!-- begin content pane -->
+    <td valign="top" width="100%" id="Contentpane">
+	
+	<!--Glossary tags-->
+	
+<div id="styled_popup" name="styled_popup" style="display:none; position:fixed; top:300; height:auto; width:300px; z-index:1000">
+<table width="300" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #32498D;">
+<tr style="background-color:#32498D; color:#ffffff;">
+<td width="100%" style="padding:1px 5px 1px 5px; border-bottom:1px solid #000000"><div width="100%" style="font-weight:bold;">CWE Glossary Definition</div></td>
+<td nowrap="nowrap" style="padding:1px; border-bottom:1px solid #000000" valign="top"><a href="javascript:styledPopupClose();"><img src="/images/layout/close.gif" border="0"  alt="x"></a></td>
+</tr>
+<tr><td colspan="2" style="background: url(/images/layout/ylgradient.jpg); background-repeat: repeat-x repeat-y; padding:5px; background-color:#FFFFCC; " valign="top">
+<div id="output" style="max-height:400px; overflow-y:auto"></div>
+</td></tr>
+</table>
+</div>
+ 
+
+<!--begin Main Content -->
+ 
+<div class="mainpage"><table style="width:100%;padding-left:2%;padding-right:2%;">
+
+<div class="introtext" style="font-weight:normal;padding-left:2%;padding-right:2%;">
+	<strong>CWE&trade;</strong> is a community-developed list of common software security weaknesses. It serves as a common language, a measuring stick for software security tools, and as a baseline for weakness identification, mitigation, and prevention efforts.</div>
+
+<br>
+
+<tr>
+	<td class="TitleBlue" colspan="3" style="padding-bottom:18px"><strong>View the List of Weaknesses</strong></td>
+</tr>
+
+<tr style="text-align:center">
+	<td valign="top" style="text-align:right">
+		<a href="/data/definitions/1000.html">
+			<button type="button" title="This view is intended to facilitate research into weaknesses, including their inter-dependencies and their role in vulnerabilities. It classifies weaknesses in a way that largely ignores how they can be detected, where they appear in code, and when they are introduced in the software development life-cycle.">by Research Concepts</button>
+		</a>
+	</td>
+	<td valign="top" style="width:280px">
+		<a href="/data/definitions/699.html">
+			<button type="button" title="This view organizes weaknesses around concepts that are frequently used or encountered in software development. Accordingly, this view can align closely with the perspectives of developers, educators, and assessment vendors.">by Development Concepts</button>
+		</a>
+	</td>
+	 <td valign="top" style="text-align:left;">
+                <a href="/data/definitions/1008.html">
+	                <button type="button" title="This view organizes weaknesses according to common architectural security tactics. It is intended to assist architects in identifying potential weaknesses when designing software.">by Architectural Concepts</button>
+                </a>
+	</td>
+
+</tr>
+
+<tr>
+<td colspan="3" class="TitleBlue" style="padding-top:24px"><strong>Search CWE</strong></td>
+</tr>
+
+<tr>
+<td colspan="3" class="text" style="padding-top:18px;padding-bottom:18px;">Easily find a specific software weakness by performing a search of the CWE List by keywords(s) or by CWE-ID Number. To search by multiple keywords, separate each by a space.<br>
+</td></tr>
+</table>
+</div>
+
+<div id="SearchBox">
+﻿<!-- CWE Search Google -->
+<script>
+  (function() {
+    var cx = '012899561505164599335:tb0er0xsk_o';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<!-- Search Google -->
+
+</div>
+
+<table style="width: 100%">
+<tr>
+<th class="text" style="padding-top:24px;text-align:center;width:145%"><strong>See the full 
+<a href="/data/index.html">CWE List</a> page for enhanced information, downloads, and more. 
+<br>
+<br>
+Total Software Weaknesses: <a href="/data/index.html">716</a></strong></th></tr>
+
+</table>
+</div>
+
+
+﻿	<div id="More_Message">
+<div style="background-color:#798795; padding:2px; color:#ffffff; font-size:95%; text-align:center" >More information is available &mdash; Please select a different filter.</div></div>
+
+	</td>
+	<!-- end content pane -->
+  </tr>
+</table>
+<div id="FootBar">
+<table cellpadding="0" cellpadding="0" border="0" width="100%">
+<tr>
+<td><div class="noprint" style="width:15px; height:1px"></div>
+</td>
+<td width="100%">
+		<div id="footbar" class="footbar noprint">
+		<b>Page Last Updated: </b>
+
+
+April 03, 2018
+﻿		</div>
+</td>
+</tr>
+</table>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="ltgreybackground" style="clear:both">
+  <tr>
+	<td colspan="4" id="line"><div class="line">&nbsp;</div>
+	</td>
+  </tr>
+  <tr>
+    <td valign="middle" nowrap="nowrap">
+		<div id="footlogo" class="noprint">
+		<!--<a href="http://www.dhs.gov" target="_blank" rel="noopener noreferrer"><img src="/images/dohs.gif" alt="Department of Homeland Security" border="0" /></a> -->
+		<a href="http://www.mitre.org" target="_blank" rel="noopener noreferrer"><img src="/images/mitre_logo.gif" width="125" height="36" border="0" alt="MITRE"/></a>
+		</div>
+    </td>
+	<td id="Contentpane" width="100%" valign="top" style="padding-top:10px">
+		<div style="clear:both">
+			<p class="footer">Use of the Common Weakness Enumeration and the associated references from this website are subject to the 
+			<a href="/about/termsofuse.html">Terms of Use</a>. For more information, please email 
+			<a href="mailto:cwe@mitre.org">cwe@mitre.org</a>. </p>
+			<p class="footer" style="padding-bottom:12px;">CWE is sponsored by 
+			<a target="_blank" rel="noopener noreferrer" href="https://www.us-cert.gov/">US-CERT</a> in the office of 
+			<a target="_blank" rel="noopener noreferrer" href="https://www.dhs.gov/office-cybersecurity-and-communications/">Cybersecurity and Communications</a> at the 
+			<a target="_blank" rel="noopener noreferrer" href="https://www.dhs.gov/">U.S. Department of Homeland Security</a>. Copyright &copy; 2006-2017, The MITRE Corporation. CWE, CWSS, CWRAF, and the CWE logo are trademarks of 
+			<a target="_blank" rel="noopener noreferrer" href="http://www.mitre.org/">The MITRE Corporation</a>.</p>
+		</div>
+		</td>
+    <td valign="top" nowrap="nowrap" style="padding-top:10px">
+	<div class="footer">
+		<a href="/about/privacy_policy.html">Privacy Policy</a><br />
+		<a href="/about/termsofuse.html">Terms of Use</a><br />
+		<a href="/sitemap.html">Site Map</a><br />
+		<a href="mailto:cwe@mitre.org">Contact Us</a>
+	</div>
+	</td>
+    <td valign="top" nowrap="nowrap" style="padding-right:20px; padding-left:20px">
+		<div id="footlogo" class="noprint">
+		&nbsp;</div>
+    </td>
+	</tr>
+</table>
+</div>
+</div>
+
+<!-- Google Analytics Code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5164081-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
